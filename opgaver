@@ -1,0 +1,84 @@
+/*
+1) Program som leser inn en temperaturvariabel, 
+og basert på grenser dere definerer selv, gir tilbakemelding 
+i terminalen om temperaturen.
+
+2) Program som sjekker hvor mange produkter en butikk har av en vare, 
+og skriver ut hvor mye rabatt varen skal få basert på beholdningen.
+
+3) Program som sjekker lengden på en tekststreng 
+(f.eks. med .Length på en string-variabel) 
+og vurderer om det kan være et sterkt eller svakt passord.
+
+----------------------------Temperature Checker----------------------------
+
+0) Console.WrireLine() = "enter a temperature or type 'exit' to quit"
+
+1) use Console.ReadLine() to read a temperature variable
+2) create a variable which contains the numbered entered 
+3) if temperature is below 0, print "It's freezing!"
+4) if temperature is between 0 and 20, print "It's cold!"
+5) if temperature is between 20 and 30, print "It's warm!"
+6) if temperature is above 30, print "It's hot!"
+7) if temperature is exactly 20, print "It's perfect!"
+8) if temperature is lower than 0, print "icicles"
+9) if temperature is higher then 30, print "Crispy"
+9) if temperature is not a number, print "Please enter a valid number."
+10)if user types "exit", quit the program.
+
+11) loop the function so the user can enter multiple temperatures until they type "exit"
+    to quit the program.
+
+ ---------------------------------------------------------------------------
+
+
+
+---------------------------------Shalves cleaner--------------------------------
+ 
+ 0) create a variable which contains the products in stock
+ 1) create a varaible which contains the amount of all products in stock
+ 2) create a Console.WriteLine() which asks the user to "choose a product from the list or type 'exit' to quit"
+ 3) create a Console.WeireLine() to show the user the list of products in stock
+ 4) create a Console.ReadLine() to read the product the user chooses
+    create a restriction that the user can only choose from the list of products in stock
+        if the user types a product that is not in stock, print "[product name] is not in stock, please choose another product."
+            console.WriteLine() to show the user the list of products in stock again
+            go to step 4 and ask the user to choose a product again
+        if the user types "exit", quit the program.
+ 5) create a Console.WriteLine() to show the user how many of the chosen product are in stock
+ 6) create a Console.WriteLine() to tell the user "Ask me for the discount! (type 'discount')
+ 7) create a Console.ReadLine() to read the users input
+     it has to be exactly "discount" to continue, if not, print "Please type 'discount' to see the discount."
+ 8) create a Console.WriteLine() to show the user how much discount they get
+        if the amount of products in stock is greater then 100, print "free!!!"
+        if the amount of products in stock is between 50 and 100, print "50% off!"
+        if the amount of products in stock is between 20 and 50, print "25% off!"
+        if the amount of products in stock is between 10 and 20, print "10% off!"
+        if the amount of products in stock is less then 10, print "no discount available"
+ 9) Continue to ask the user if they want to choose another product or type "exit" to quit the program.
+ 9) loop the function so the user can choose multiple products until they
+    type "exit" to quit the program.
+
+    -------------------------------------------------------------------------------------
+
+
+
+
+
+    --------------------------------Password Strength Checker--------------------------------
+    1) Console.WriteLine() = "Please enter a password to check its strength or type 'exit' to quit"
+    2) use Console.ReadLine() to read a password variable
+    3) create a variable which contains the password entered
+    4) if the password length is less than 4, print "Password must be at least 4 characters long."
+    5) if password length is more then 4 and less than 6, print "Weak password"
+    6) if password length is between 6 and 10, print "Moderate password"
+    7) if password length is greater than 10, print "Strong password"
+          create a restriction that user can only enter a password with a length of 4 or more characters
+            if the password length is less than 4, print "Password must be at least 4 characters long."
+    8)Console.WeriteLine() to ask the user if they want to check another password or type "exit" to quit the program.
+    9) Console.ReadLine() to read the users input
+        if the user types "exit", quit the program.
+        if the user types anything else, go back to step 1 and ask the user to enter a password again.
+
+*/
+
